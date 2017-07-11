@@ -1,0 +1,72 @@
+// Place all the styles related to the StaticPages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+
+ $primaryBlue: #003f87;
+
+
+body{
+	margin: 0;
+	padding: 0;
+}
+
+
+
+.listsHeader{
+	color: $primaryBlue;
+}
+
+.headerContainer{
+	width: 100%;
+	box-shadow: 2px 2px 2px #ccc;
+	height: 56px;
+	background-color: $primaryBlue;
+
+	#logo{
+		color: #fff;
+		text-decoration: none;
+		font-size: 18px;
+		display: inline-block;
+		margin-top: 18px;
+		margin-left: 24px;
+		float: left;
+	}
+
+	ul{
+		display: inline-block;
+		float: right;
+		margin-top: 20px;
+		margin-right: 24px;
+
+
+		li{
+			display: inline-block;
+		}
+	}
+
+	.title{
+		margin-top: 0;
+		margin-bottom: 0;
+		padding-top: 20px;
+		margin-left: 20px;
+		display: inline-block;
+		color: #fff;
+		text-decoration: none;
+	}
+
+	.navButton{
+		display: inline-block;
+		text-decoration: none;
+		margin-left: 14px;
+		color: #fff;
+
+		&:visited{
+			color: #fff;
+		}
+
+		&:hover{
+			font-weight: 600;
+		}
+	}
+}
